@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "keysys"})
 
-getgenv().Key = "vAquita"
+getgenv().Key = "VaquitaFuiFui"
 getgenv().PermanentKeyStaff = "516667932156100608"
 
 getgenv().FreeLog = "Used a Private Key"
@@ -29,6 +29,20 @@ function autoRebirth()
         end
     end
 end
+
+function automegaBoss()
+    while getgenv().automegaBoss == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.7571297, 4.03191662, 1382.90234, -0.00195894809, -3.63168233e-08, 0.999998093, -5.47524515e-08, 1, 3.6209638e-08, -0.999998093, -5.4681415e-08, -0.00195894809)
+        task.wait(3)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3089.58252, 14.2397623, 1306.44495, -0.108402468, 5.19048946e-08, -0.994107068, 5.64705038e-09, 1, 5.15967962e-08, 0.994107068, -2.05524035e-11, -0.108402468)
+        task.wait(10)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3441.58521, 35.3818932, 1008.0705, 0.00858220086, 5.02598603e-08, -0.999963164, 2.6353101e-08, 1, 5.04878876e-08, 0.999963164, -2.67854272e-08, 0.00858220086)
+        task.wait(80)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-30615.5254, 4.30253124, 20975.832, 0.179150075, 1.6038026e-08, 0.98382175, 1.33353772e-08, 1, -1.87300788e-08, -0.98382175, 1.64751288e-08, 0.179150075)
+        task.wait(150)
+    end
+end
+            
 
 function autoBoss()
     while getgenv().autoBoss == true do
@@ -176,7 +190,7 @@ Tab:AddDropdown({
 })
 
 Tab:AddToggle({
-	Name = "AutoBoss",
+	Name = "Auto Boss",
 	Default = false,
 	Callback = function(v)
         getgenv().autoBoss = v
@@ -184,7 +198,16 @@ Tab:AddToggle({
 	end    
 })
 
-Tab:AddParagraph("AutoSlice","To turn on/off the AutoSlice with the key : v")
+Tab:AddToggle({
+	Name = "Auto MegaBoss",
+	Default = false,
+	Callback = function(v)
+        getgenv().automegaBoss = v
+        automegaBoss()
+	end    
+})
+
+Tab:AddParagraph("AutoSlice","To turn on/off the AutoSlice with the key : v\nAuto MegaBoss requires max health, and good weapons to kill all the bosses.")
 
 local Teleport = Window:MakeTab({
 	Name = "Teleport",
