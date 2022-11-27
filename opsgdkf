@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "keysys"})
 
-getgenv().Key = "Yetashi"
+getgenv().Key = "Goofy"
 getgenv().KeyInput = "string"
 
 local Key = Window:MakeTab({
