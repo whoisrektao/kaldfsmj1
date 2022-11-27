@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "keysys"})
 
-getgenv().Key = "HBLNASDCFJK1"
+getgenv().Key = "vAquita"
 getgenv().PermanentKeyStaff = "516667932156100608"
 
 getgenv().FreeLog = "Used a Private Key"
