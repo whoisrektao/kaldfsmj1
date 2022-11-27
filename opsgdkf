@@ -1,0 +1,204 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "keysys"})
+
+getgenv().Key = "Yetashi"
+getgenv().KeyInput = "string"
+
+local Key = Window:MakeTab({
+	Name = "Key System",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+function Printer()
+    local Window = OrionLib:MakeWindow({Name = "Vurum", HidePremium = false, SaveConfig = true, ConfigFolder = "Vurum"})
+
+local Tab = Window:MakeTab({
+	Name = "Automatics",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+function autoBoss()
+    while getgenv().autoBoss == true do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-62.3614693, 5.49373007, 511.879486, -0.644934535, -0.0502097681, -0.762586534, -6.86384737e-07, 0.997839451, -0.0656985715, 0.764237821, -0.042370759, -0.643541276)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-93.3364487, 4.03186846, 677.385681, -0.976005793, 4.31340474e-08, 0.217744455, 6.32130579e-08, 1, 8.52479332e-08, -0.217744455, 9.69667724e-08, -0.976005793)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-112.616577, 4.03162956, 879.797913, 0.767190278, 2.99996437e-08, 0.64141959, -7.7642941e-09, 1, -3.74839679e-08, -0.64141959, 2.37771651e-08, 0.767190278)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-84.6008987, 4.03186846, 1194.06873, -0.0794827715, 7.36425765e-09, 0.996836245, -5.824075e-09, 1, -7.85201326e-09, -0.996836245, -6.42974873e-09, -0.0794827715)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.8777752, 4.03191566, 1383.14307, 0.20825839, 9.29677384e-08, 0.978073835, -1.08035305e-08, 1, -9.27514918e-08, -0.978073835, 8.74962591e-09, 0.20825839)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3029.08569, 14.6444359, 496.38382, -0.878280342, -2.63180215e-08, -0.478146076, -1.54752868e-08, 1, -2.6616096e-08, 0.478146076, -1.5976946e-08, -0.878280342)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3087.92822, 14.2318935, 675.106689, -0.94452697, -3.43258399e-08, -0.328433871, -4.62047964e-08, 1, 2.83644184e-08, 0.328433871, 4.19661781e-08, -0.94452697)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2807.39941, 14.231863, 880.063293, -0.789294839, -6.13120719e-08, 0.614014387, -6.18468192e-08, 1, 2.03524522e-08, -0.614014387, -2.19107523e-08, -0.789294839)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2828.79248, 14.2397652, 1110.13367, -0.99481976, -4.62098804e-08, 0.101654314, -3.81619749e-08, 1, 8.11140382e-08, -0.101654314, 7.68145227e-08, -0.99481976)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3502.00391, 35.4081306, 217.566162, -0.246084824, -5.95109695e-09, -0.969248295, 2.03530153e-08, 1, -1.1307387e-08, 0.969248295, -2.25097025e-08, -0.246084824)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3087.23779, 14.2397633, 1305.28064, 0.310084701, -2.3429708e-08, -0.950708926, 5.69444474e-08, 1, -6.07137096e-09, 0.950708926, -5.22549541e-08, 0.310084701)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3504.25659, 35.4082146, 215.180252, -0.981516838, 4.24331192e-09, -0.191375881, 3.40316664e-09, 1, 4.71870676e-09, 0.191375881, 3.98020594e-09, -0.981516838)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3437.21216, 35.3653069, 410.159332, -0.997668862, 5.42556435e-08, 0.0682406574, 5.60338016e-08, 1, 2.41430591e-08, -0.0682406574, 2.79105627e-08, -0.997668862)
+        task.wait(1)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3729.02612, 35.3653069, 591.420471, 0.141366839, 1.117468e-07, 0.989957273, -1.91061904e-08, 1, -1.10152044e-07, -0.989957273, -3.34246653e-09, 0.141366839)
+    end
+end
+
+local time = 0.01 
+
+click = false
+m = game.Players.LocalPlayer:GetMouse()
+m.KeyDown:connect(function(key)
+if key == "v" then
+if click == true then click = false
+elseif
+click == false then click = true
+
+while click == true do 
+wait(time)
+mouse1click()
+end
+end
+end
+end)
+
+Tab:AddToggle({
+	Name = "AutoBoss",
+	Default = false,
+	Callback = function(v)
+        getgenv().autoBoss = v
+        autoBoss()
+	end    
+})
+
+Tab:AddParagraph("AutoSlice","To turn on/off the AutoSlice with the key : v")
+
+local Teleport = Window:MakeTab({
+	Name = "Teleport",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Teleport:AddDropdown({
+	Name = "Upgrade Zones",
+	Default = "",
+	Options = {"1", "2", "3"},
+	Callback = function(Value)
+		if Value == "1" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(8.6030407, 9.37103939, 637.759338, -0.623441279, -0.00841447711, 0.781824887, 0.0197153166, 0.999454916, 0.0264781713, -0.781621516, 0.031921491, -0.622935593)
+        elseif Value == "2" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3017.20044, 19.2317762, 929.637634, -0.444271803, -8.99723746e-05, -0.895892024, -2.76411065e-05, 1, -8.67205017e-05, 0.895892024, -1.37640227e-05, -0.444271803)
+        elseif Value == "3" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3628.41504, 39.3653145, 519.767029, 0.641203284, -3.03136821e-10, 0.767371058, 4.8592852e-10, 1, -1.1001402e-11, -0.767371058, 3.79941634e-10, 0.641203284)
+        end
+    end
+})
+
+Teleport:AddDropdown({
+	Name = "Useful Teleports",
+	Default = "",
+	Options = {"Spawn", "SuperRebirth", "Portal Hub"},
+	Callback = function(Value)
+		if Value == "Spawn" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(58.3560524, 7.0998683, 357.861511, -0.848873794, -2.07865654e-08, 0.528595567, 7.31962002e-09, 1, 5.10787466e-08, -0.528595567, 4.72285286e-08, -0.848873794)
+        elseif Value == "SuperRebirth" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(153.402359, 7.31331062, 220.06691, 0.998970449, -1.18219852e-08, 0.0453659669, 6.47920606e-09, 1, 1.17917679e-07, -0.0453659669, -1.17502339e-07, 0.998970449)
+        elseif Value == "Portal Hub" then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(226.927246, 7.09986877, 265.088562, 0.0138515756, -7.69542723e-08, -0.999904037, -3.05630277e-09, 1, -7.70039961e-08, 0.999904037, 4.12263645e-09, 0.0138515756)
+        end
+    end
+})
+
+local Misc = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Misc:AddSlider({
+	Name = "Walk Speed",
+	Min = 16,
+	Max = 250,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Speed",
+    Callback = function(v)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+    end;
+})
+
+Misc:AddSlider({
+	Name = "Jump Power",
+	Min = 50,
+	Max = 350,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Jump",
+    Callback = function(v)
+        game.Players.LocalPlayer.Character.Humanoid.JumpHeight = v
+    end;
+})
+
+Misc:AddSlider({
+	Name = "FOV",
+	Min = 70,
+	Max = 120,
+	Default = 70,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Distance",
+    Callback = function(v)
+        game.Workspace.CurrentCamera.FieldOfView = v
+    end;
+})
+end
+
+Key:AddParagraph("Discord","https://discord.gg/NcPVhg9fbz")
+
+Key:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		getgenv().KeyInput = Value
+	end	  
+})
+
+Key:AddButton({
+	Name = "Check",
+	Callback = function()
+      	if getgenv().KeyInput == getgenv().Key then
+        Printer()
+        CorrectKeyNotificacion()
+        else
+            IncorrectKeyNotificacion()
+        end
+  	end    
+})
+
+function IncorrectKeyNotificacion()
+    OrionLib:MakeNotification({
+        Name = "Check your key again",
+        Content = "You entered an incorrect key",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
+end
+
+function CorrectKeyNotificacion()
+    OrionLib:MakeNotification({
+        Name = "Congratulations!",
+        Content = "You entered the correct key",
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
+end
