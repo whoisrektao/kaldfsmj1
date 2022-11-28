@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = false, SaveConfig = true, ConfigFolder = "keysys"})
 
-getgenv().Key = "VaquitaFuiFui"
+getgenv().Key = "Argentina2"
 getgenv().PermanentKeyStaff = "516667932156100608"
 
 getgenv().FreeLog = "Used a Private Key"
@@ -355,7 +355,7 @@ end
 getgenv().PermanentLog = "Private Key has been used"
 
 function discordlog()
-local webh = "https://discord.com/api/webhooks/1041456446157635635/F8K0d2_5E5fnlDCIdhdOp0sd0dQbAR0z-LtnKJAIq5SDMOuHv8mBN5AQtNH-57HnU2Iu"
+local webh = "https://discord.com/api/webhooks/1046582208221151286/KssFUkEucsRIky0QsskjJL-ynntprENFyqvIfMT_TeiZsDt5ivRmKJNDRKsF3jrlHm9I"
 
    local data = {
 
@@ -409,7 +409,7 @@ end
 getgenv().FreeLog = "Free Key has been used"
 
 function discordlogfree()
-    local webh = "https://discord.com/api/webhooks/1041456446157635635/F8K0d2_5E5fnlDCIdhdOp0sd0dQbAR0z-LtnKJAIq5SDMOuHv8mBN5AQtNH-57HnU2Iu"
+    local webh = "https://discord.com/api/webhooks/1046582208221151286/KssFUkEucsRIky0QsskjJL-ynntprENFyqvIfMT_TeiZsDt5ivRmKJNDRKsF3jrlHm9I"
 
     local data = {
  
